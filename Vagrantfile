@@ -20,7 +20,7 @@ Vagrant.configure("2") do |config|
     #v.vmx['vhv.enable'] = true                         # enable nested virtulazation on vm
     v.vmx['memsize'] = '3072'                           # reserve 3GB RAM for vm
     v.vmx['mem.hotadd'] = true                          # enable VMWare Hot Add for RAM
-    v.vmx['nvme0.present'] = true # lelele              # select nvme for primary drive
+    v.vmx['nvme0.present'] = true                       # select nvme for primary drive
     v.vmx['usb.present'] = true                         # enable USB controller
     v.vmx['ehci.present'] = true                        # enable USB controller
     v.vmx['svga.graphicsMemoryKB'] = '262144'           # reserve 256MB for GPU
