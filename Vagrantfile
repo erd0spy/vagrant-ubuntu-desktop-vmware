@@ -29,7 +29,8 @@ Vagrant.configure("2") do |config|
   #config.vm.synced_folder "", ""                       # enable sycned folder for vm
 
   config.vm.provision "shell", inline: <<-SHELL
-    apt-get update & apt-get full-upgrade -y
+    apt-get update
+    apt-get full-upgrade -y
     apt-get install tasksel network-manager network-manager-gnome gdm3 open-vm-tools-desktop mate-terminal adwaita-icon-theme-full -y
     tasksel install ubuntu-desktop-minimal -y
     systemctl set-default graphical.target
