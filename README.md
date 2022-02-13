@@ -1,8 +1,6 @@
 # **Vagrant Ubuntu Desktop VMware**
 
-## **Purpose**
-
-Managing VMware Ubuntu Desktop virtual machine with vagrant.
+Vagrantfile with detailed VMX settings for managing Ubuntu VMware virtual machines. VMX parameters are valid for all operating systems.
 
 ## **Requirements**
 
