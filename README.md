@@ -16,7 +16,7 @@ Managing VMware Ubuntu Desktop virtual machine with vagrant.
 #### `vagrant-vmware-desktop` plugin
 
 ```bash
-vagrant plugin install vagrant-alpine
+vagrant plugin install vagrant-vmware-desktop
 ```
 
 #### `Vagrant vmware` Utility
@@ -32,7 +32,7 @@ vagrant plugin install vagrant-alpine
 
 ```bash
 git clone https://github.com/erd0spy/vagrant-ubuntu-desktop-vmware/
-cd vagrant-box-templates
+cd vagrant-ubuntu-desktop-vmware
 ```
 
 #### **Customizing VMware settings**
